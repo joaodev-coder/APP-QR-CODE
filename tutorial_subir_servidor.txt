@@ -1,0 +1,22 @@
+TUTORIAL RAPIDO - SUBIR O SERVIDOR (APP QR code)
+
+1) Abrir PowerShell
+
+2) Ir para a pasta do projeto:
+cd "C:\caminho\para\APP QR code"
+
+3) Iniciar o servidor:
+.\.venv\Scripts\python.exe main.py
+
+4) No celular, abrir a URL mostrada no terminal
+Exemplo: http://192.168.0.10:8000
+
+5) Enviar arquivos pela pagina
+Arquivos recebidos ficam em:
+...\APP QR code\uploads
+
+6) Para encerrar o servidor:
+Ctrl + C
+
+Dica:
+- Se nao abrir no celular, normalmente e rede/firewall.
